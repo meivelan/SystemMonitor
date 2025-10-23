@@ -3,4 +3,13 @@ name = "system_monitor"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+name = "system_monitor"
+path = "rust/src/main.rs"
+
+[lib]
+name = "system_monitor"
+path = "rust/lib/lib.rs"
+
 [dependencies]
+
